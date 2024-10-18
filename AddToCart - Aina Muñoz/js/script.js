@@ -3,6 +3,7 @@ import { getDatabase, ref, push } from "https://www.gstatic.com/firebasejs/9.15.
 
 const input = document.getElementById("inputField")
 const boto = document.getElementById("afegir");
+const lista = document.getElementById("llista");
 
 const appSettings = {
     databaseURL: "https://addtocart-1c03d-default-rtdb.europe-west1.firebasedatabase.app/"
@@ -14,5 +15,6 @@ const tasks = ref(baseDades, "tareas");
 
 boto.addEventListener("click", function(){
     push(tasks, input.value)
-    alert("Afegit a la BD");
+    lista.innerHTML += `<li>${input.value}</li>`;
+    input.value=""
 })
