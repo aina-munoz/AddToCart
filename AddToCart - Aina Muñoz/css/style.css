@@ -43,3 +43,20 @@ button {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 10px 0;
 }
+
+ul{
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  color: black;
+  background-color: #DCE1EB;
+  border: 0;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 10px 0;
+}
