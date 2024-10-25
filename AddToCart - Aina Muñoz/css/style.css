@@ -4,7 +4,6 @@ html, body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #EEF0F4;
   color: black;
-  
 }
 
 .container {
@@ -42,6 +41,7 @@ button {
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 10px 0;
+  cursor: pointer;
 }
 
 ul{
@@ -65,4 +65,5 @@ ul li {
 
 ul li:hover{
   background-color: #b6b9c0;
+  cursor: pointer;
 }
